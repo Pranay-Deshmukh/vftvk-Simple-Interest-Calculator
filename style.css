@@ -1,4 +1,69 @@
-body {background-color:tan;}
-h1{color:green;}
+body{
+    font-family: arial;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+  }
+
+.heading{
+    margin-bottom: 20px;
+}
+
+.components{
+    border-style: solid;
+    padding: 5px 0px 0px;
+}
+
+.maindiv{
+  width: 600px;
+  padding: 50px;
+  margin: 150px 200px 150px 400px
+}
 
 
+.amount{
+    margin-left: 40px;
+    padding: 7px;
+}
+#principal{
+    margin-left: 100px;
+}
+
+
+.Interest{
+    margin-left: 40px;
+    padding: 7px;
+}
+#rate{
+    margin-left: 80px;
+}
+
+
+.noofy{
+    margin-left: 40px;
+    padding: 7px;
+}
+#years{
+    margin-left: 150px;
+}
+
+
+.btn{
+    margin-left: 152px;
+    padding: 7px;
+}
+.button{ 
+    background-color: #04AA6D; /* Green */
+    border: solid;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+footer{
+    margin-left: 250px;
+    padding: 8px;
+}
