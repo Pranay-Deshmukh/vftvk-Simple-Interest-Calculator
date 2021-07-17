@@ -16,15 +16,15 @@
         <h2 class="heading">Simple Interest Calculator</h2>
         <div class="components">    <!-- Creating components class for separating components-->
             <div class="amount">    <!-- Creating amount class for separating a component-->
-                Amount <input type="number" id="principal"> <br>
+                Amount <br><input type="number" id="principal"> <br>
             </div>
             <div class="Interest">  <!-- Creating Interest class for separating a component-->
-                Interest Rate <input type="range" onchange="updateRate()" id="rate" min="1" max="20" step="0.25"
+                Interest Rate <br><input type="range" onchange="updateRate()" id="rate" min="1" max="20" step="0.25"
                     value="3.5">
                 <span id="rate_val">3.5%</span><br>
             </div>
             <div class="noofy"> <!-- Creating noofy class for separating a component-->
-                No. of Years <select id="years">
+                No. of Years <br><select id="years">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -38,7 +38,7 @@
                 </select> <br>
             </div>
             <div class="btn">   <!-- Creating btn class for separating a component-->
-                <button onclick="compute()" class="button">Compute Interest</button> <!-- Button to submit the data and onclick() function to calculate interest.-->
+                <button type="button" onclick="compute()" class="button">Compute Interest</button> <!-- Button to submit the data and onclick() function to calculate interest.-->
             </div>
             <span id="result"></span>
             <footer> <!-- Footer for copyright-->

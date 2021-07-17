@@ -1,11 +1,17 @@
 body{
     font-family: arial;
+    background: linear-gradient(45deg, greenyellow, dodgerblue);
 }
 
 h2 {
-    text-align: center;
-    text-transform: uppercase;
-    color: #4CAF50;
+    font-size: 2em;
+    border-left: 5px solid dodgerblue;
+    padding: 10px;
+    color: #000;
+    letter-spacing: 5px;
+    margin-bottom: 60px;
+    font-weight: bold;
+    padding-left: 10px;
   }
 
 .heading{
@@ -13,57 +19,80 @@ h2 {
 }
 
 .components{
-    border-style: solid;
-    padding: 5px 0px 0px;
+    position: relative;
+    padding-top: 25px;
+    background: #fff;
+    border-radius: 10px;
 }
 
-.maindiv{
-  width: 600px;
-  padding: 50px;
-  margin: 150px 200px 150px 400px
+body{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, greenyellow, dodgerblue);
+  font-family: "Sansita Swashed", cursive;
 }
 
-
-.amount{
-    margin-left: 40px;
-    padding: 7px;
-}
 #principal{
-    margin-left: 100px;
+    position: relative;
+    width: 200px;
+    height: 25px;
+    margin-bottom: 35px;
+  
+}
+.amount{
+    margin-left: 180px;
+    font-size: 130%;
 }
 
 
-.Interest{
-    margin-left: 40px;
-    padding: 7px;
-}
 #rate{
-    margin-left: 80px;
+    position: relative;
+    width: 200px;
+    height: 25px;
+    margin-bottom: 35px;
+  
+}
+.Interest{
+        margin-left: 180px;
+        font-size: 130%;
 }
 
 
-.noofy{
-    margin-left: 40px;
-    padding: 7px;
-}
 #years{
-    margin-left: 150px;
+    position: relative;
+    width: 200px;
+    height: 25px;
+    margin-bottom: 35px;
+  
 }
-
+.noofy{
+    margin-left: 180px;
+    font-size: 130%;
+}
 
 .btn{
-    margin-left: 152px;
+    margin-left: 185px;
     padding: 7px;
 }
 .button{ 
-    background-color: #04AA6D; /* Green */
-    border: solid;
+    background-color: dodgerblue; 
     color: white;
     text-align: center;
     border-radius: 20px;
+    font-size: 90%;
+    padding: 10px 25px;
 }
+.btn:hover [type="button"] {
+    background: linear-gradient(45deg, greenyellow, dodgerblue);
+  }
 
 footer{
     margin-left: 250px;
     padding: 8px;
 }
+
