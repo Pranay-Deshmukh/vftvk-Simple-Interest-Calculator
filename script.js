@@ -3,6 +3,7 @@ function compute() {
     if (check_amount.value <= 0)    //Checking the value is positive or not 
     {
         alert("Please Enter a positive number!");
+        document.getElementById("principal").focus();
         return false;
     }
     else {
